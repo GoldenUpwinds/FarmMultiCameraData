@@ -1,0 +1,35 @@
+%YAML:1.0
+---
+
+model_type: PINHOLE
+camera_name: rgb_camera
+image_width: 640
+image_height: 480
+
+distortion_parameters:
+   k1:  0.13735036847990176
+   k2: -0.2804425211210817
+   p1: -0.0007118131836913909
+   p2:  0.00027846885950763204
+projection_parameters:
+   fx: 622.2554591700176
+   fy: 620.1726459599628
+   cx: 321.54610168640534
+   cy: 244.90434552077687
+
+
+model_type: PINHOLE
+camera_name: lr2_camera
+image_width: 640
+image_height: 480
+
+distortion_parameters:
+   k1:  0.020239154239318994
+   k2: -0.007802516660634689
+   p1: -0.000176047930143013
+   p2:  0.0009532253277313342
+projection_parameters:
+   fx: 389.86182977663344
+   fy: 388.73044082184634
+   cx: 320.4733726792427
+   cy: 239.99365755199915
